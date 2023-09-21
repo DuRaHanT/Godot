@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://8qgi73yau1fi"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_rp52t"]
+
+[node name="Main" type="Node2D"]
+
+[node name="BackGround" type="Sprite2D" parent="."]
+scale = Vector2(200, 200)
+texture = SubResource("CanvasTexture_rp52t")

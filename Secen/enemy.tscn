@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1jv53hxewfa7"]
+
+[ext_resource type="Texture2D" uid="uid://tr0nrcohwwhv" path="res://icon.svg" id="1_61bny"]
+
+[node name="Enemy" type="Node2D"]
+
+[node name="Image" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+self_modulate = Color(1, 0, 0, 1)
+texture = ExtResource("1_61bny")
+
+[node name="BoxContainer" type="BoxContainer" parent="."]
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 64.0
+offset_right = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
